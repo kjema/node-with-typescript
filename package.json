@@ -1,0 +1,15 @@
+{
+  "name": "with-typescript",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/index.js"
+  },
+  "devDependencies": {
+    "@types/node": "18.11.10",
+    "typescript": "4.9.3"
+  }
+}
